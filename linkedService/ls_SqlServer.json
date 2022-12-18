@@ -1,0 +1,16 @@
+{
+	"name": "ls_SqlServer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=ahold_dxc_vm;initial catalog=AdventureWorksLT2019;user id=ahold_dxc_admin",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzYzZhNWU1ZS05MTMwLTRiNDQtOTA0MC1jNWExMzUwNjRhZWUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IR-ahold-dxc-vm",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
